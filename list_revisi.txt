@@ -1,0 +1,5 @@
+Revisi :
+1. tambah update stok
+2. tambah validasi jumlah pinjam
+3. input pembayaran sekaligus pengembalian
+4. tambahan denda 

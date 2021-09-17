@@ -1,0 +1,89 @@
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebutchet MS", sans-serif;
+    background:url(../img/2.png);
+    background-size: cover;
+}
+
+.box {
+    position: absolute; /*posisi Berdasarkan jendela browser*/
+    top: 30%;
+    left: 7%;
+    width: 400px;
+    background: rgba(0, 0, 0, .4);
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}
+
+.box h2 {
+    margin-top: 10px;
+    color: #FF9800;
+    text-align: center;
+}
+
+.box .inputBox {
+    position: relative;
+}
+
+.box .inputBox input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #FF9800;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #999;
+    outline: none;
+    background-color: transparent;
+}
+
+.box .inputBox input:focus{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #FF9800;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #FF9800;
+    outline: none;
+    background-color: transparent;
+    transition: all 0.3s ease-out;
+}
+
+.box .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #999;
+    pointer-events: none;
+    transition: .3s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #FFF;
+    font-size: 14px;
+}
+
+button {
+    background-color: #FF9800;
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid #FF9800;
+    height: 36px;
+    padding: 0 16px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px lighten(black, 60%);
+    cursor: pointer;
+    outline: none;
+}
+
